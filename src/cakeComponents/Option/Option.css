@@ -1,0 +1,44 @@
+
+
+.displayAnimation {
+    animation: fadeIn 1s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  }
+
+  .button {
+    transition-duration: 0.4s;
+    border: .5px solid !important; 
+    border-color: #ec407a !important;
+    font-size: 0.34rem;
+    padding: 12px 28px;
+    border-radius: 4px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+      
+  }
+  
+  
+  .button:hover {
+    background-color: #f48fb1; 
+    color: white;
+    cursor: pointer;
+  }
+
+  .display-container {
+    flex: 0 0 15%;
+    height: 400px;
+    width: 250px;
+    border-style: solid;
+    border-color: #ec407a;
+    border-width: .5px;
+    margin:10px;
+    text-align: center;
+    background-color: rgba(255,255,255,.8);
+  }
+  

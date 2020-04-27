@@ -1,0 +1,61 @@
+h2 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size:1.1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(161, 98, 53);
+  }
+  
+  .recipecontainers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+  }
+  
+  .recipelist img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+  }
+
+  .recipelist a:hover {
+    opacity: .7;
+    }
+
+  figcaption {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: .8rem;
+    color: #ec407a;
+  }
+
+  .recipelist_cookie{
+    position: relative;
+}
+.recipelist_cookie:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.recipelist_cookie:hover img {
+    filter:blur(2px);
+}
+
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.05rem;
+  text-align: center;
+  padding-top: 35px;
+}

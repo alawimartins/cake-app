@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=League+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+
+@media (min-width: 777px) {
+    .displaySmallNav {
+      display: none;
+    }
+  }
+
+.navSmallNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  border-bottom: .6px solid;
+  border-color:#f32e70;
+  box-shadow: -11px 36px 54px -47px rgba(0,0,0,0.41);
+  background-color: white;
+
+}
+
+
+
+.small-nav-ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+
+
+.small-nav-ul li {
+    
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .33rem;
+  font-weight: bolder;
+  border-bottom: .6px solid;
+  border-color:#eeafc4;
+  margin:0;
+  padding: 15px;
+  background-color: #fff;
+  
+
+
+}
+
+.displayNone-ul{
+    display: none;
+}
+
+nav li a:hover {
+   
+  cursor: pointer;
+}
+.small-nav-ul li a {
+  color:rgb(161, 98, 53);;
+  text-decoration: none;
+  
+}
+
+.main-container-bar {
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.container-bar {
+    display: inline-block;
+    cursor: pointer;
+    margin: 25px;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 40px;
+    height: 6px;
+    background-color: #f895b6;;
+    margin: 6px 0;
+    transition: 0.4s;
+    
+  }
+
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  
+ 
+  

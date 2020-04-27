@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+
+.navimages {
+    height: 150px;
+    width: auto;
+    background-image: url("images/cookies.jpg");
+    background-repeat: repeat-x;
+    overflow: hidden;
+
+
+}
+
+.nav {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color:#f48fb1;
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+    box-shadow: -1px 8px 37px 0px rgba(194,194,194,1);
+
+}
+
+nav li {
+    display: inline-block;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.recipeflex {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size:60px;
+    margin:0
+}
+
+.recipelist {
+    display: inline-block;
+    
+
+}
+
+.recipelist img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+figcaption {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: #ec407a;
+}
