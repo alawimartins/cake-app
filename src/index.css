@@ -9,9 +9,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   background-image: url("./cakeComponents/backgroundImage/background.png");
-   background-size: contain;
-   background-position: center;
+
+  background-image: url("background.png");
+  background-size: contain;
+  background-position: center;
+
 }
 
 

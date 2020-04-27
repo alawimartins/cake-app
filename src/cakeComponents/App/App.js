@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {Nav} from '../Nav/Nav'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -22,7 +22,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <Router basename ='/'>
       <div className="App">
        
        <Nav />
