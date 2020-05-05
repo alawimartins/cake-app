@@ -1,4 +1,4 @@
-## To-do list
+## Recipe App
 This was my second personal project built with React.js.
 
 See demo here: https://alawimartins.github.io/sweettooth/#/
